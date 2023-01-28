@@ -1,0 +1,15 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+
+BIN_FILE=/data/data/com.termux/files/usr/bin/boilerplate
+BOILER=/data/data/com.termux/files/usr/var/boilerplate
+
+
+if [ -f $BIN_FILE ] || [ -d $BOILER ]; then
+    rm -rf /data/data/com.termux/files/usr/bin/boilerplate
+    rm -rf /data/data/com.termux/files/usr/var/boilerplate 
+    echo "done"
+else
+    echo "boilerplate not installed"   
+fi
+

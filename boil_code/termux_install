@@ -1,0 +1,8 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+BIN_PATH=/data/data/com.termux/files/usr/bin/boilerplate
+HTML_PATH=/data/data/com.termux/files/usr/var/boilerplate
+
+mkdir $HTML_PATH && cat ./index.html > $HTML_PATH/index.html && cat boilerplate.sh > $BIN_PATH && chmod +x $BIN_PATH 
+
+  
