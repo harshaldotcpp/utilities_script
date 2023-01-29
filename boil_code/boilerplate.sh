@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-HTML_PATH=/data/data/com.termux/files/usr/var/boilerplate/index.html 
+HTML_PATH=/usr/local/boilerplate/index.html 
 CURRENT_PATH=$(pwd); 
 BOILERPLATE_TYPE=$1; FILE_NAME=$2;
 DEFAULT_FILE_NAME="default";
